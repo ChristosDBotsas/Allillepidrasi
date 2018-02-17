@@ -29,5 +29,12 @@ namespace Allilepidrasi
             form2.Show();
             Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var form3 = new Form3();
+            form3.Form3_Load(sender, e);
+            form3.Show();
+        }
     }
 }
