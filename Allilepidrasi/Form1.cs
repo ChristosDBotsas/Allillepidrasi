@@ -17,9 +17,17 @@ namespace Allilepidrasi
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var form2 = new Form2();
+            form2.Form2_Load(sender, e);
+            form2.Show();
+            Hide();
         }
     }
 }

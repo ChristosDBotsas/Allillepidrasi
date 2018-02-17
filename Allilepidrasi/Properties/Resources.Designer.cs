@@ -63,6 +63,16 @@ namespace Allilepidrasi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backbutton {
+            get {
+                object obj = ResourceManager.GetObject("backbutton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Steel_Background_Desktop_Wallpaper_14566 {
             get {
                 object obj = ResourceManager.GetObject("Steel-Background-Desktop-Wallpaper-14566", resourceCulture);
