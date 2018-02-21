@@ -35,6 +35,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            
             // 
             // trackBar2
             // 
@@ -45,7 +46,7 @@
             this.trackBar2.Name = "trackBar2";
             this.trackBar2.Size = new System.Drawing.Size(400, 45);
             this.trackBar2.TabIndex = 0;
-            this.trackBar2.Value = 18;
+            this.trackBar2.Value = Global.TempratureDegrees;
             this.trackBar2.ValueChanged += new System.EventHandler(this.trackBar2_ValueChanged);
             // 
             // comboBox2
@@ -58,7 +59,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(200, 21);
             this.comboBox2.TabIndex = 1;
-            this.comboBox2.SelectedIndex = 0;
+            this.comboBox2.SelectedIndex = Global.TempratureSetting;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // textBox1
@@ -67,7 +68,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(40, 20);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "18°C";
+            this.textBox1.Text = $"{Global.TempratureDegrees}°C";
             this.textBox1.WordWrap = false;
             // 
             // pictureBox1
@@ -78,7 +79,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Image = Properties.Resources.Heating;
+            this.pictureBox1.Image = Global.TempratureImage;
             // 
             // Form2
             // 

@@ -25,6 +25,7 @@ namespace Allilepidrasi
         private void trackBar2_ValueChanged(object sender, EventArgs e)
         {
             textBox1.Text = $"{trackBar2.Value}°C";
+            Global.TempratureDegrees = trackBar2.Value;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -42,13 +43,16 @@ namespace Allilepidrasi
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Global.TempratureSetting = comboBox2.SelectedIndex;
             switch (comboBox2.Items[comboBox2.SelectedIndex].ToString())
             {
                 case "Θέρμανση":
                     pictureBox1.Image = Properties.Resources.Heating;
+                    Global.TempratureImage = Properties.Resources.Heating;
                     break;
                 case "Ψύξη":
                     pictureBox1.Image = Properties.Resources.Cooling;
+                    Global.TempratureImage = Properties.Resources.Cooling;
                     break;
                 default:
                     break;

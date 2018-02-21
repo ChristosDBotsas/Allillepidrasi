@@ -60,6 +60,7 @@ namespace Allilepidrasi
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 2;
+            this.comboBox1.SelectedIndex = Global.DressingOccasion;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // pictureBox2
@@ -70,6 +71,7 @@ namespace Allilepidrasi
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Image = Global.DressingTopImage;
             // 
             // pictureBox3
             // 
@@ -79,6 +81,7 @@ namespace Allilepidrasi
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Image = Global.DressingPantsImage;
             // 
             // pictureBox4
             // 
@@ -88,6 +91,7 @@ namespace Allilepidrasi
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Image = Global.DressingShoesImage;
             // 
             // Form4
             // 

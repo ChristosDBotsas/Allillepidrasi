@@ -12,7 +12,6 @@ namespace Allilepidrasi
 {
     public partial class Form3 : Form
     {
-        private bool IsDark1 = false, IsDark2 = false, IsDark3 = false, IsDark4 = false;
         public Form3()
         {
             InitializeComponent();
@@ -25,59 +24,64 @@ namespace Allilepidrasi
 
         private void picturebox1_Click(object sender, EventArgs e)
         {
-            if (!IsDark1)
+            if (!Global.IsBathroomDark)
             {
-                IsDark1 = true;
+                Global.IsBathroomDark = true;
                 pictureBox1.Image = Properties.Resources.bathroomDark;
             }
-            else if (IsDark1)
+            else if (Global.IsBathroomDark)
             {
-                IsDark1 = false;
+                Global.IsBathroomDark = false;
                 pictureBox1.Image = Properties.Resources.bathroom;
             }
         }
 
+        private void Form3_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
         private void picturebox2_Click(object sender, EventArgs e)
         {
-            if (!IsDark2)
+            if (!Global.IsBedroomDark)
             {
-                IsDark2 = true;
+                Global.IsBedroomDark = true;
                 pictureBox2.Image = Properties.Resources.bedroomDark;
             }
                 
-            else if (IsDark2)
+            else if (Global.IsBedroomDark)
             {
                 pictureBox2.Image = Properties.Resources.bedroom;
-                IsDark2 = false;
+                Global.IsBedroomDark = false;
             }
         }
 
         private void picturebox3_Click(object sender, EventArgs e)
         {
-            if (!IsDark3)
+            if (!Global.IsKitchenDark)
             {
                 pictureBox3.Image = Properties.Resources.kitchenDark;
-                IsDark3 = true;
+                Global.IsKitchenDark = true;
             }
-            else if (IsDark3)
+            else if (Global.IsKitchenDark)
             {
                 pictureBox3.Image = Properties.Resources.kitchen;
-                IsDark3 = false;
+                Global.IsKitchenDark = false;
             }
         }
 
         private void picturebox4_Click(object sender, EventArgs e)
         {
-            if (!IsDark4)
+            if (!Global.IsLivingRoomDark)
             {
                 pictureBox4.Image = Properties.Resources.livingroomDark;
-                IsDark4 = true;
+                Global.IsLivingRoomDark = true;
             }
 
-            else if (IsDark4)
+            else if (Global.IsLivingRoomDark)
             {
                 pictureBox4.Image = Properties.Resources.livingroom;
-                IsDark4 = false;
+                Global.IsLivingRoomDark = false;
             }
         }
     }

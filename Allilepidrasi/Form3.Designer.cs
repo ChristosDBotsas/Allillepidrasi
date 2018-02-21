@@ -59,7 +59,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Allilepidrasi.Properties.Resources.bathroom;
+            this.pictureBox1.Image = Global.IsBathroomDark ? global::Allilepidrasi.Properties.Resources.bedroomDark : global::Allilepidrasi.Properties.Resources.bedroom;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(499, 262);
@@ -70,7 +70,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Allilepidrasi.Properties.Resources.bedroom;
+            this.pictureBox2.Image = Global.IsBedroomDark ? global::Allilepidrasi.Properties.Resources.bedroomDark : global::Allilepidrasi.Properties.Resources.bedroom;
             this.pictureBox2.Location = new System.Drawing.Point(508, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(500, 262);
@@ -81,7 +81,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Allilepidrasi.Properties.Resources.kitchen;
+            this.pictureBox3.Image = Global.IsKitchenDark ? global::Allilepidrasi.Properties.Resources.kitchenDark : global::Allilepidrasi.Properties.Resources.kitchen;
             this.pictureBox3.Location = new System.Drawing.Point(3, 271);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(499, 263);
@@ -92,7 +92,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Allilepidrasi.Properties.Resources.livingroom;
+            this.pictureBox4.Image = Global.IsLivingRoomDark ? global::Allilepidrasi.Properties.Resources.livingroomDark : global::Allilepidrasi.Properties.Resources.livingroom;
             this.pictureBox4.Location = new System.Drawing.Point(508, 271);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(500, 263);
@@ -109,6 +109,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load_1);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
