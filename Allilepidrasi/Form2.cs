@@ -39,5 +39,20 @@ namespace Allilepidrasi
         {
 
         }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (comboBox2.Items[comboBox2.SelectedIndex].ToString())
+            {
+                case "Θέρμανση":
+                    pictureBox1.Image = Properties.Resources.Heating;
+                    break;
+                case "Ψύξη":
+                    pictureBox1.Image = Properties.Resources.Cooling;
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }

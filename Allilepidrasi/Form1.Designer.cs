@@ -35,10 +35,10 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button1.Location = new System.Drawing.Point(102, 86);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.button1.Location = new System.Drawing.Point(100, 55);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 100);
+            this.button1.Size = new System.Drawing.Size(800, 100);
             this.button1.TabIndex = 0;
             this.button1.Text = "Έλεγχος Θερμοκρασίας";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,10 +46,10 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button2.Location = new System.Drawing.Point(537, 86);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.button2.Location = new System.Drawing.Point(100, 210);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 100);
+            this.button2.Size = new System.Drawing.Size(800, 100);
             this.button2.TabIndex = 1;
             this.button2.Text = "Επιλογή ενδυμασίας";
             this.button2.UseVisualStyleBackColor = true;
@@ -57,10 +57,10 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button3.Location = new System.Drawing.Point(380, 345);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.button3.Location = new System.Drawing.Point(100, 365);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 100);
+            this.button3.Size = new System.Drawing.Size(800, 100);
             this.button3.TabIndex = 2;
             this.button3.Text = "Έλεγχος δωματίων";
             this.button3.UseVisualStyleBackColor = true;

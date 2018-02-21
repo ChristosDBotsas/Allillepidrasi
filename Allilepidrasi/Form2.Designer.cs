@@ -39,7 +39,7 @@
             // trackBar2
             // 
             this.trackBar2.LargeChange = 0;
-            this.trackBar2.Location = new System.Drawing.Point(342, 351);
+            this.trackBar2.Location = new System.Drawing.Point(342, 400);
             this.trackBar2.Maximum = 30;
             this.trackBar2.Minimum = 18;
             this.trackBar2.Name = "trackBar2";
@@ -54,30 +54,31 @@
             this.comboBox2.Items.AddRange(new object[] {
             "Θέρμανση",
             "Ψύξη"});
-            this.comboBox2.Location = new System.Drawing.Point(392, 162);
+            this.comboBox2.Location = new System.Drawing.Point(442, 42);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.Size = new System.Drawing.Size(200, 21);
             this.comboBox2.TabIndex = 1;
             this.comboBox2.SelectedIndex = 0;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(748, 351);
+            this.textBox1.Location = new System.Drawing.Point(748, 400);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(40, 20);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "18°C";
+            this.textBox1.WordWrap = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Allilepidrasi.Properties.Resources.backbutton;
-            this.pictureBox1.Location = new System.Drawing.Point(44, 70);
+            this.pictureBox1.Location = new System.Drawing.Point(442, 150);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(200, 200);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Image = Properties.Resources.Heating;
             // 
             // Form2
             // 

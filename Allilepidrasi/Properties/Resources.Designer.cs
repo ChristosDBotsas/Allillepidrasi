@@ -143,9 +143,29 @@ namespace Allilepidrasi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cooling {
+            get {
+                object obj = ResourceManager.GetObject("Cooling", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DressShoes {
             get {
                 object obj = ResourceManager.GetObject("DressShoes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Heating {
+            get {
+                object obj = ResourceManager.GetObject("Heating", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

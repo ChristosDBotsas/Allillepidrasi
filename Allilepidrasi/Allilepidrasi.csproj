@@ -126,6 +126,8 @@
     <None Include="Images\sneakers.JPG" />
     <None Include="Images\DressShoes.jpg" />
     <None Include="Images\Boots.jpg" />
+    <None Include="Images\Cooling.png" />
+    <None Include="Images\Heating.png" />
     <Content Include="Images\Steel-Background-Desktop-Wallpaper-14566.jpg" />
     <None Include="Resources\BackButtonImage.bmp" />
   </ItemGroup>
