@@ -129,6 +129,7 @@
     <None Include="Images\Boots.jpg" />
     <None Include="Images\Cooling.png" />
     <None Include="Images\Heating.png" />
+    <None Include="Images\background1.jpg" />
     <Content Include="Images\Steel-Background-Desktop-Wallpaper-14566.jpg" />
     <None Include="Resources\BackButtonImage.bmp" />
   </ItemGroup>

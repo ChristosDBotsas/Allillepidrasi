@@ -51,7 +51,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(800, 100);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Επιλογή ενδυμασίας";
+            this.button2.Text = "Επιλογή Ενδυμασίας";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -62,7 +62,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(800, 100);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Έλεγχος δωματίων";
+            this.button3.Text = "Έλεγχος Δωματίων";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -70,13 +70,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Allilepidrasi.Properties.Resources.Background;
+            this.BackgroundImage = global::Allilepidrasi.Properties.Resources.background1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 537);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Hello World";
+            this.Text = "Κεντρικό Μενού";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

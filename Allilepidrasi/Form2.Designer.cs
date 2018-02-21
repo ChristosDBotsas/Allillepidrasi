@@ -83,13 +83,15 @@
             // 
             // Form2
             // 
-            this.BackgroundImage = global::Allilepidrasi.Properties.Resources.Background;
+            this.BackgroundImage = global::Allilepidrasi.Properties.Resources.background1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 537);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.trackBar2);
             this.Name = "Form2";
+            this.Text = "Έλεγχος θερμοκρασίας";
             this.Load += new System.EventHandler(this.Form2_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

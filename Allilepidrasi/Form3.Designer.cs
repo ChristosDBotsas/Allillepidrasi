@@ -108,7 +108,7 @@
             this.ClientSize = new System.Drawing.Size(1008, 537);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Έλεγχος Δωματίων";
             this.Load += new System.EventHandler(this.Form3_Load_1);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

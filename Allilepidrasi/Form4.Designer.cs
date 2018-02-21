@@ -105,7 +105,7 @@ namespace Allilepidrasi
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Επιλογή Ενδυμασίας";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
