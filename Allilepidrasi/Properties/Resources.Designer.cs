@@ -173,6 +173,16 @@ namespace Allilepidrasi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Help_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("Help-icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hoodie {
             get {
                 object obj = ResourceManager.GetObject("hoodie", resourceCulture);
