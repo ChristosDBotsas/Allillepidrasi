@@ -27,7 +27,6 @@ namespace Allilepidrasi
             var form2 = new Form2();
             form2.Form2_Load(sender, e);
             form2.Show();
-            Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -35,6 +34,13 @@ namespace Allilepidrasi
             var form3 = new Form3();
             form3.Form3_Load(sender, e);
             form3.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var form4 = new Form4();
+            form4.Form4_Load(sender, e);
+            form4.Show();
         }
     }
 }
